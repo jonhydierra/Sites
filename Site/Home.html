@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DriveDeal</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <!-- Top bar (logo + search + cart) -->
+    <div class="top-bar">
+      <div class="logo">
+        <h1>DriveDeal</h1>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for products..." />
+        <button>Procurar</button>
+      </div>
+      <div class="cart">
+        <a href="#">Carrinho (0)</a>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="categorias.html">categorias</a></li>
+        <li><a href="Marcas.html">Marcas</a></li>
+        <li><a href="Usados.html">Usados</a></li>
+        <li><a href="Peças.html">Peças</a></li>
+        <li><a href="Suporte.html">Suporte</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <img class="img1" src="https://cdn-datak.motork.net/configurator-imgs/cars/fr/800/CUPRA/TERRAMAR/48734_SUV-5-DOORS/cupra-terramar.png"/>
+    <img class="img2" src="https://filintomota.s3.eu-west-3.amazonaws.com/wp-content/uploads/2024/04/Peugeot3008Hybrid-Thumbnail-860x484.png"/>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Stand de Carros novo e usados</h2>
+      <p>Temos os melhores carros, as melhores marcas e as melhores condições</p>
+      <button class="cta-button">Ver loja</button>
+    </section>
+
+    
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+      <h2>Principais Carros</h2>
+      <div class="products-grid">
+        <!-- Product Card 1 -->
+        <article class="product-card">
+          <img src="https://filintomota.s3.eu-west-3.amazonaws.com/wp-content/uploads/2024/04/Peugeot3008Hybrid-Thumbnail-860x484.png" alt="Product 1" />
+          <h3>Peugeot 3008</h3>
+          <p class="price">45.000,00€</p>
+          <button class="add-to-cart">Adicionar ao carrinho</button>
+        </article>
+
+        <!-- Product Card 2 -->
+        <article class="product-card">
+          <img src="https://www.renault.co.ao/CountriesData/Angola/images/cars/kadjarPh1/frente_ig_w800_h450.jpg" alt="Product 2" />
+          <h3>Renault kadjar</h3>
+          <p class="price">20.000,00€</p>
+          <button class="add-to-cart">Adicionar ao carrinho</button>
+        </article>
+
+        <!-- Product Card 3 -->
+        <article class="product-card">
+          <img src="https://caetanoretail.pt/site/uploads/sites/23/2024/05/nissan-qashqai-2024-300x180.webp" alt="Product 3" />
+          <h3>Nissan Qashqai</h3>
+          <p class="price">30.000,00€</p>
+          <button class="add-to-cart">Adicionar ao carrinho</button>
+        </article>
+
+        <!-- Product Card 4 -->
+        <article class="product-card">
+          <img src="https://cdn-datak.motork.net/configurator-imgs/cars/fr/800/CUPRA/TERRAMAR/48734_SUV-5-DOORS/cupra-terramar.png" alt="Product 4" />
+          <h3>Cupra terramar</h3>
+          <p class="price">48.500,00€</p>
+          <button class="add-to-cart">Adicionar ao carrinho</button>
+        </article>
+
+        <!-- Product Card 5 -->
+        <article class="product-card">
+          <img src="https://www.greenncap.com/wp-content/uploads/bmw-x1-2023-0125.png" alt="Product 5" />
+          <h3>BMW X1</h3>
+          <p class="price">55.789,00€</p>
+          <button class="add-to-cart">Adicionar ao carrinho</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Categories / Promotion -->
+    <section class="categories">
+      <h2>Procure por categoria</h2>
+      <div class="category-grid">
+        <div class="category-item" style="background-image: url('https://www.nicepng.com/png/detail/290-2903528_marcas-de-autos-png-ks-car-logo.png');">
+          <h3>Marcas</h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://www.kindpng.com/picc/m/179-1793933_transparent-carros-png-concessionria-de-carros-png-download.png');">
+          <h3>Usados</h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://media.istockphoto.com/id/1034249292/pt/foto/set-of-car-parts-isolated-on-white-background-3d.jpg?s=612x612&w=0&k=20&c=cEs-KYNRsLO-9la_6biwZlALisB6zgQ04lQEpMpVyCY=');">
+          <h3>Peças</h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://img.freepik.com/vetores-premium/icones-de-suporte-tecnico_933463-16225.jpg?semt=ais_hybrid');">
+          <h3>Suporte</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <h2>Inicie sessão</h2>
+      <p>Inicie sessão para conseguir comprar</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">iniciar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h3>Sobre nós</h3>
+        <p>
+          Temos os melhores carros, as melhores marcas e as melhores condições
+        </p>
+      </div>
+      <div class="footer-col">
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="#">Help &amp; FAQs</a></li>
+          <li><a href="#">Shipping &amp; Returns</a></li>
+          <li><a href="#">Order Tracking</a></li>
+          <li><a href="#">Payment Options</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <ul class="social-links">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">
+      &copy; 2025 ShopEasy. All rights reserved.
+    </p>
+  </footer>
+</body>
+</html>
